@@ -3,4 +3,8 @@
  if(!defined('__CONFIG__')){
     exit('you do not have config file');
  }
+
+ // include the DB.php file:
+ include_once "classes/DB.php";
+ $con = DB::getConnection();
 ?>
